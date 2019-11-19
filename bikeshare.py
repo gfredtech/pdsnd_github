@@ -21,7 +21,7 @@ def choice(prompt, choices=('y', 'n')):
     while True:
         choice = input(prompt).lower().strip()
         # terminate the program if the input is end
-        if choice == 'end':
+        if choice == 'stop':
             raise SystemExit
         # triggers if the input has only one name
         elif ',' not in choice:
