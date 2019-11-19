@@ -73,7 +73,7 @@ def get_filters():
         else:
             print("\nLet's try this again!")
 
-    print('-'*40)
+    print('-'*69)
     return city, month, day
 
 
